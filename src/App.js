@@ -10,10 +10,10 @@ export default function App() {
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/myphotos" element={<Myphotos />} />
-        <Route path="/search" element={<Search />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/003_module/" element={<Home />} />
+        <Route path="/003_module/myphotos" element={<Myphotos />} />
+        <Route path="/003_module/search" element={<Search />} />
+        <Route path="/003_module/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

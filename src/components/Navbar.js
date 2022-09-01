@@ -7,13 +7,9 @@ export default function Navbar() {
     
   return (
     <div className="navbar">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/search">Search</NavLink>
-          <NavLink to="/myphotos">My photos</NavLink>
-          {/*<NavLink to="/users">Users</NavLink>
-          <NavLink to={`/users/${userId}`}>User</NavLink>
-          <NavLink to="/dashboard">Dashboard</NavLink>
-          <NavLink to="/Go06Le">Whatever</NavLink>*/}
+          <NavLink to="/003_module/">Home</NavLink>
+          <NavLink to="/003_module/search">Search</NavLink>
+          <NavLink to="/003_module/myphotos">My photos</NavLink>
     </div>
   )
 }
